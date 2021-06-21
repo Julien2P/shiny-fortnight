@@ -1,0 +1,33 @@
+.titre_page{
+    color:#ED1D24;
+    text-align:center;
+}
+
+.titre_section{
+    text-align:center;
+}
+
+.img_col1{
+    width:50%;
+    display: block;
+    margin-left:15px;
+    margin-right: auto;
+}
+
+.img_col2{
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_col3{
+    width:50%;
+    display: block;
+    margin-left:auto;
+    margin-right:15px;
+}
+
+.ligne{
+    display: flex;
+}
