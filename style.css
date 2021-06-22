@@ -25,19 +25,21 @@ body{
 .img_col2{
     width:50%;
     flex:1;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:25%;
+    margin-right: auto;
 }
 
 .img_col3{
     width:50%;
     flex:1;
+    margin-left:40%;
+    margin-right: auto;
 }
 
 .img_col12{
     width:35%;
     display: block;
-    margin-left:300px;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -45,7 +47,7 @@ body{
     width:35%;
     display: block;
     margin-left: auto;
-    margin-right: 300px;
+    margin-right: auto;
 }
 
 .ligne{
@@ -53,17 +55,35 @@ body{
 }
 
 .txt_col1{
-    flex:1;
+    flex:2.25;
+    color:white;
     margin-left:20px;
     margin-right:auto;
 }
 
 .txt_col2{
-    flex:1;
-    text-align:center;
+    flex:2.25;
+    color:white;
+    margin-left:35px;
+    margin-right:auto;
 }
 
 .txt_col3{
     flex:1;
-    text-align:justify;
+    color:#ffffff;
+    text-align:left;
+    margin-left:auto;
+    margin-right:20px;
+}
+
+.txt_col12{
+    flex:1;
+    color:#ffffff;
+    text-align : center;
+}
+
+.txt_col22{
+    flex:1;
+    color:#ffffff;
+    text-align : center;
 }
