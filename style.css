@@ -9,6 +9,7 @@ body{
     height:60px;
     background :#ED1D24;
     margin:0px;
+    line-height:60px;
 }
 
 .titre_section{
@@ -86,4 +87,14 @@ body{
     flex:1;
     color:#ffffff;
     text-align : center;
+}
+
+.bas_de_page{
+    color:white;
+    text-align:center;
+    height:40px;
+    background :#ED1D24;
+    margin:auto;
+    line-height: 40px;
+    vertical-align:center;
 }
