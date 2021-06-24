@@ -80,13 +80,13 @@ body{
 .txt_col12{
     flex:1;
     color:#ffffff;
-    text-align : center;
+    text-align: center;
 }
 
 .txt_col22{
     flex:1;
     color:#ffffff;
-    text-align : center;
+    text-align: center;
 }
 
 .bas_de_page{
@@ -99,16 +99,38 @@ body{
     vertical-align:center;
 }
 
-.orga{
+.shield{
     height:500px;
     background :#FFFFFF;
-    margin-left:30px;
-    margin-right:50%;
+    margin-left:25px;
+    margin-right: auto;
+    width:40%;
+    float:left;
+}
+
+.hydra{
+    height:500px;
+    background :#962a00;
+    width:40%;
+    margin-left: auto;
+    margin-right:25px;
+}
+
+.image_id{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .txt_tab{
     color:white;
     text-align:center;
+}
+
+.tit_tab{
+    color:white;
+    background :#151763;
+    font-size: large;
 }
 
 .attente{
