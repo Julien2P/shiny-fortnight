@@ -99,7 +99,24 @@ body{
     vertical-align:center;
 }
 
+.orga{
+    height:500px;
+    background :#FFFFFF;
+    margin-left:30px;
+    margin-right:50%;
+}
+
+.txt_tab{
+    color:white;
+    text-align:center;
+}
+
 .attente{
     vertical-align:center;
     text-align:center;
+}
+
+table{
+    border-collapse: collapse;
+    background :#151763;
 }
