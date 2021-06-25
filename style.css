@@ -99,23 +99,6 @@ body{
     vertical-align:center;
 }
 
-.shield{
-    height:500px;
-    background :#FFFFFF;
-    margin-left:25px;
-    margin-right: auto;
-    width:40%;
-    float:left;
-}
-
-.hydra{
-    height:500px;
-    background :#962a00;
-    width:40%;
-    margin-left: auto;
-    margin-right:25px;
-}
-
 .image_id{
     display: block;
     margin-left: auto;
@@ -127,9 +110,43 @@ body{
     text-align:center;
 }
 
-.tit_tab{
+.shield{
+    background :#000000;
+}
+
+.tit_shield{
     color:white;
-    background :#151763;
+    background :#000000;
+    font-size: large;
+}
+
+.hydra{
+    background :#962a00;
+}
+
+.tit_hydra{
+    color:white;
+    background :#962a00;;
+    font-size: large;
+}
+
+.inde{
+    background :#4c4d80;
+}
+
+.tit_inde{
+    color:white;
+    background :#4c4d80;;
+    font-size: large;
+}
+
+.ssr{
+    background :#857a3c;
+}
+
+.tit_ssr{
+    color:white;
+    background :#857a3c;;
     font-size: large;
 }
 
@@ -140,5 +157,4 @@ body{
 
 table{
     border-collapse: collapse;
-    background :#151763;
 }
