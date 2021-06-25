@@ -3,6 +3,11 @@ body{
     background :#616d77;
 }
 
+.contenu{
+    min-height:100%;
+    position:relative;
+}
+
 .titre_page{
     color:white;
     text-align:center;
@@ -93,6 +98,7 @@ body{
     color:white;
     text-align:center;
     height:40px;
+    width: 100%;
     background :#ED1D24;
     margin:auto;
     line-height: 40px;
@@ -148,6 +154,31 @@ body{
     color:white;
     background :#857a3c;;
     font-size: large;
+}
+
+/*Les class a,b,c sur les tableaux servent pour les placements, a : colonne 1; b : col 2...*/
+
+.c{
+    position:absolute;
+    right:20px;
+}
+.b{
+    position:absolute;
+    left:500px;
+}
+.a{
+    position:absolute;
+    left:20px;
+}
+
+.l1{
+    top:100px;
+}
+.l2{
+    top:650px;
+}
+.l3{
+    top:1200px;
 }
 
 .attente{
