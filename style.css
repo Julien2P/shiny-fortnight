@@ -1,6 +1,9 @@
 body{
     margin:0px;
-    background :#394147;
+    background-image :url(fond.jpg);
+    background-repeat:no-repeat;
+    
+    background-attachment: fixed;
 }
 
 .contenu{
@@ -18,6 +21,7 @@ body{
 }
 
 .titre_section{
+    color:white;
     text-align:center;
 }
 
@@ -122,6 +126,7 @@ body{
 
 .leg{
     text-decoration: underline;
+    color: #ffffff;
 }
 
 .shield{
@@ -135,7 +140,7 @@ body{
 }
 
 .leg_shield{
-    color:#000;
+    color:#ffffff;
 }
 
 .hydra{
@@ -213,4 +218,9 @@ body{
 
 table{
     border-collapse: collapse;
+}
+
+.fond_leg{
+    background:#000000;
+    width: 25%;
 }
