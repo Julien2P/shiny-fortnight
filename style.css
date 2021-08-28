@@ -21,7 +21,7 @@ body{
 }
 
 .titre_section{
-    color:white;
+    color:#ffffff;
     text-align:center;
 }
 
@@ -144,45 +144,45 @@ body{
 }
 
 .hydra{
-    background :#962a00;
+    background :#ff0000;
 }
 
 .tit_hydra{
     color:white;
-    background :#962a00;;
+    background :#ff0000;;
     font-size: large;
 }
 
 .leg_hydra{
-    color:#962a00;
+    color:#ff0000;
 }
 
 .inde{
-    background :#4c4d80;
+    background :#7a7cf3;
 }
 
 .tit_inde{
     color:white;
-    background :#4c4d80;;
+    background :#7a7cf3;;
     font-size: large;
 }
 
 .leg_inde{
-    color:#4c4d80;
+    color:#7a7cf3;
 }
 
 .ssr{
-    background :#857a3c;
+    background :#d6c358;
 }
 
 .tit_ssr{
     color:white;
-    background :#857a3c;;
+    background :#d6c358;;
     font-size: large;
 }
 
 .leg_ssr{
-    color:#857a3c;
+    color:#eeda6b;
 }
 
 /*Les class a,b,c sur les tableaux servent pour les placements, a : colonne 1; b : col 2...*/
@@ -221,6 +221,14 @@ table{
 }
 
 .fond_leg{
-    background:#000000;
+    background:#222121a2;
     width: 25%;
+}
+
+.fond_ttr{
+    background:#423b3b9c;
+}
+
+.fleche{
+    background:#423b3b9c;
 }
