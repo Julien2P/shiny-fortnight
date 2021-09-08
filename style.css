@@ -124,6 +124,13 @@ body{
     text-align:center;
 }
 
+/* partie légende*/
+
+.fond_leg{
+    background:#000000a2;
+
+}
+
 .leg{
     text-decoration: underline;
     color: #ffffff;
@@ -182,8 +189,52 @@ body{
 }
 
 .leg_ssr{
-    color:#eeda6b;
+    color:#eee16b;
 }
+
+.sword{
+    background :#807e73;
+}
+
+.tit_sword{
+    color:white;
+    background :#807e73;;
+    font-size: large;
+}
+
+.leg_sword{
+    color:#c2c2c2;
+}
+
+.kree{
+    background :#148b78;
+}
+
+.tit_kree{
+    color:white;
+    background :#148b78;;
+    font-size: large;
+}
+
+.leg_kree{
+    color:#148b78;
+}
+
+.airforce{
+    background :#1b019b;
+}
+
+.tit_airforce{
+    color:white;
+    background :#1b019b;
+    font-size: large;
+}
+
+.leg_airforce{
+    color:#3c1ae6;
+}
+
+
 
 /*Les class a,b,c sur les tableaux servent pour les placements, a : colonne 1; b : col 2...*/
 /*l1,l2 et l3 correspondent aux lignes*/
@@ -218,11 +269,6 @@ body{
 
 table{
     border-collapse: collapse;
-}
-
-.fond_leg{
-    background:#222121a2;
-    width: 25%;
 }
 
 .fond_ttr{
