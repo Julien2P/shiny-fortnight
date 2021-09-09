@@ -25,6 +25,27 @@ body{
     text-align:center;
 }
 
+.bas_de_page{
+    color:white;
+    text-align:center;
+    height:40px;
+    width: 100%;
+    background :#ED1D24;
+    margin:auto;
+    line-height: 40px;
+    vertical-align:center;
+}
+
+.pos{
+    color:rgb(0, 116, 211);
+}
+
+.fond_ttr{
+    background:#423b3b9c;
+}
+
+/*positionnement index*/
+
 .img_col1{
     width:50%;
     flex:1;
@@ -98,20 +119,8 @@ body{
     text-align: center;
 }
 
-.bas_de_page{
-    color:white;
-    text-align:center;
-    height:40px;
-    width: 100%;
-    background :#ED1D24;
-    margin:auto;
-    line-height: 40px;
-    vertical-align:center;
-}
 
-.pos{
-    color:rgb(0, 116, 211);
-}
+/*partie tableau*/
 
 .image_id{
     display: block;
@@ -122,6 +131,10 @@ body{
 .txt_tab{
     color:white;
     text-align:center;
+}
+
+table{
+    border-collapse: collapse;
 }
 
 /* partie légende*/
@@ -234,6 +247,19 @@ body{
     color:#3c1ae6;
 }
 
+.anneaux{
+    background :#00a508;
+}
+
+.tit_anneaux{
+    color:white;
+    background :#00a508;
+    font-size: large;
+}
+
+.leg_anneaux{
+    color:#00a508;
+}
 
 
 /*Les class a,b,c sur les tableaux servent pour les placements, a : colonne 1; b : col 2...*/
@@ -265,14 +291,6 @@ body{
 .attente{
     vertical-align:center;
     text-align:center;
-}
-
-table{
-    border-collapse: collapse;
-}
-
-.fond_ttr{
-    background:#423b3b9c;
 }
 
 .fleche{
